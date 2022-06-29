@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useDispatch } from "react-redux";
-import { setData } from "../../../redux/actions/dataAction";
-import ChooseBox from "../../input_variants/input_variants";
+import { setData } from "../../redux/actions/dataAction";
+import ChooseBox from "../../components/input_variants/input_variants";
 
 const MainPage = () => {
     const dispatch = useDispatch();
